@@ -1,4 +1,4 @@
 #!/usr/biv/env node
-import nameAsk from '../src/cli.js';
+import  nameAsk from '../src/cli.js';
 
 nameAsk();
