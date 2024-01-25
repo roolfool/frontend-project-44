@@ -1,3 +1,3 @@
-import  Primecode from '../src/cli.js';
+import  Primecode from '../src/prime.js';
 
 Primecode();

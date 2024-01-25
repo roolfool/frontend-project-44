@@ -1,4 +1,3 @@
-import { nameAsk, playGame } from '../src/cli.js';
+import startGame from '../src/even.js';
 
-nameAsk();
-playGame();
+startGame();
