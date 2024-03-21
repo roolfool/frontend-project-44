@@ -18,4 +18,4 @@ export default function gameProgression() {
   
     return [result.join(' '), correct];
   };
-  
+  //ваиприпрк
