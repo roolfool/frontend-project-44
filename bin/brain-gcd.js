@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import gameFindGCD from '../src/gameBody/gcd.js';
+import game from '../index.js';
 
-console.log(gameFindGCD());
+game('gcd');

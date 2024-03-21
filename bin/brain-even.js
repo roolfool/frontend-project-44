@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import gameEvenOrNo from '../src/gameBody/even.js';
+import game from '../index.js';
 
-console.log(gameEvenOrNo());
+game('even');

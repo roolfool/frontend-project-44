@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import gameProgression from '../src/gameBody/progression.js';
+import game from '../index.js';
 
-console.log(gameProgression());
+game('progression');
