@@ -1,3 +1,5 @@
-import generateProgression from '../src/progression.js';
+#!/usr/bin/env node
 
-generateProgression();
+import gameProgression from '../src/gameBody/progression.js';
+
+console.log(gameProgression());

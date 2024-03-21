@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import gameBrain from '../src/calc.js';
 
-gameBrain('calc');
+import gameCalculator  from '../src/gameBody/calc.js'; 
+
+console.log(gameCalculator());

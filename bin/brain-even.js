@@ -1,3 +1,5 @@
-import startGame from '../src/even.js';
+#!/usr/bin/env node
 
-startGame();
+import gameEvenOrNo from '../src/gameBody/even.js';
+
+console.log(gameEvenOrNo());

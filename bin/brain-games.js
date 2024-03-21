@@ -1,4 +1,5 @@
-#!/usr/biv/env node
-import  nameAsk from '../src/cli.js';
+#!/usr/bin/env node
 
-nameAsk();
+import gameBrain from '../index.js';
+
+gameBrain();

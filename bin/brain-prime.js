@@ -1,3 +1,5 @@
-import  Primecode from '../src/prime.js';
+#!/usr/bin/env node
 
-Primecode();
+import gameIsPrime from '../src/gameBody/prime.js';
+
+console.log(gameIsPrime());

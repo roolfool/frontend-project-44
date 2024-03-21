@@ -1,7 +1,9 @@
+#!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
 
-export default function greetUser() {
-  console.log('Welcome to the Brain Games!');
+export default function getName() {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-}
+  return name;
+} 

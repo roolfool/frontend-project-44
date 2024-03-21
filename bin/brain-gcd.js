@@ -1,3 +1,5 @@
-import calculateGCD from '../src/gcd.js';
+#!/usr/bin/env node
 
-calculateGCD();
+import gameFindGCD  from '../src/gameBody/gcd.js';
+
+console.log(gameFindGCD());
